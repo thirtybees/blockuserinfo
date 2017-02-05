@@ -24,7 +24,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-if (!defined('_PS_VERSION_'))
+if (!defined('_TB_VERSION_'))
 	exit;
 
 class BlockUserInfo extends Module
@@ -33,8 +33,8 @@ class BlockUserInfo extends Module
 	{
 		$this->name = 'blockuserinfo';
 		$this->tab = 'front_office_features';
-		$this->version = '0.4.1';
-		$this->author = 'PrestaShop';
+		$this->version = '1.0.0';
+		$this->author = 'thirty bees';
 		$this->need_instance = 0;
 
 		parent::__construct();
