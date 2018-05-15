@@ -39,7 +39,7 @@ class BlockUserInfo extends Module
 
 		parent::__construct();
 
-		$this->displayName = $this->l('User info block');
+		$this->displayName = $this->l('Block User Info');
 		$this->description = $this->l('Adds a block that displays information about the customer.');
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
 	}
