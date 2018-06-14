@@ -32,7 +32,7 @@ class BlockUserInfo extends Module
 	{
 		$this->name = 'blockuserinfo';
 		$this->tab = 'front_office_features';
-		$this->version = '1.0.0';
+		$this->version = '1.0.1';
 		$this->author = 'thirty bees';
 		$this->need_instance = 0;
 
