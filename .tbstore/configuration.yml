@@ -6,6 +6,7 @@ tags:
   - login
   - user information
   - customer login
+  - blockuserinfo
 description_short: The block user info block adds a login link to the top of your site
 description: description.md
 images:
