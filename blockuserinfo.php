@@ -41,6 +41,7 @@ class BlockUserInfo extends Module
 		$this->displayName = $this->l('Block User Info');
 		$this->description = $this->l('Adds a block that displays information about the customer.');
 		$this->tb_versions_compliancy = '> 1.0.0';
+		$this->tb_min_version = '1.0.0';
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
 	}
 
